@@ -36,7 +36,7 @@ You can load this extension locally in any Chromium-based browser with developer
 
 - This extension is available on the Microsoft Edge Add-ons store.
 
-[Link: ](https://microsoftedge.microsoft.com/addons/detail/live-browser-bandwidth/nkipknchncjoajfcknadbjkokbcbhbfh)
+[Microsoft Edge Add-ons store](https://microsoftedge.microsoft.com/addons/detail/live-browser-bandwidth/nkipknchncjoajfcknadbjkokbcbhbfh)
 
 ## License
 
