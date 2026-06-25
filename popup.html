@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h2>SPEED TEST</h2>
+    
+    <!-- Top Metrics Row -->
+    <div class="metrics">
+      <div class="metric">
+        <span class="label">PING</span>
+        <span class="value" id="pingValue">-- ms</span>
+      </div>
+      <div class="metric">
+        <span class="label">DOWNLOAD</span>
+        <span class="value" id="dlValue">-- Mbps</span>
+      </div>
+      <div class="metric">
+        <span class="label">UPLOAD</span>
+        <span class="value" id="ulValue">-- Mbps</span>
+      </div>
+    </div>
+    
+    <!-- Animated Central Gauge -->
+    <div class="gauge-container">
+      <div class="gauge-circle"></div>
+      <div class="gauge-content">
+        <span id="mainSpeed">0.0</span>
+        <span id="mainUnit">Mbps</span>
+        <span id="mainLabel">READY</span>
+      </div>
+    </div>
+
+    <!-- Usage Summary (Hidden initially) -->
+    <div id="summary" class="summary hidden">
+      <div id="summaryTitle" class="summary-title"></div>
+      <div id="summaryDesc" class="summary-desc"></div>
+    </div>
+
+    <!-- Start Button -->
+    <button id="startBtn">START TEST</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
